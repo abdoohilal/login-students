@@ -1,0 +1,94 @@
+.container {
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #2b9ab6de, #49eeeeab);
+    border-radius: 7px;
+    box-shadow: 0 0 35px rgb(0,0,0,0.5);
+    width: 600px;
+
+    }
+    
+    .form-control {
+    border-radius: 5px;
+    border: 2px solid #f1d7d7;
+    }
+    
+    .form-control:focus {
+    border-color: #580ead;
+    box-shadow: 0 0 0 0.2rem rgba(4, 195, 202, 0.781);
+    }
+    
+    #submit-button {
+    margin-top: 10px;
+    }
+    
+    #success-message {
+    display: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    }
+    label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+    div{
+        text-align: center;
+    }
+    :placeholder-shown{
+        text-align: center;
+    }
+
+#submit-button{
+    margin-bottom: 20px;
+    margin-top: 10px    ;
+    width: 50%;
+    border-radius: 5px;
+    background-color:#2b9ab6de;
+    padding: 8px;
+    text-align:center;
+    margin-right: 36%;
+
+}
+.radio{
+    margin: 10px;
+}
+.form-control{
+    direction:rtl;
+
+}
+#submit-button:hover{
+    background-image: linear-gradient(to left, #52459cde, #12355fe8 );
+    border: 1px #580ead;
+    color: #f1d7d7;
+}
+.form-group {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+label{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+input[type='text'] {
+    border: 1px solid #ced4da;
+    padding: 6px;
+    margin-right: 20px;
+    width: 70%;
+}
+
+.rdio>input {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: auto;
+}
+@media (max-width: 600px) {
+    .container{
+        width: 380px;
+        text-align: center;
+    }
+    
+}
